@@ -1,5 +1,5 @@
 project: rnshah9/libesedb
-target: libesedb
+target: esedbinfo
 tests: 
   - file://tests/data/
 
