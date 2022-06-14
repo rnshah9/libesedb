@@ -1,8 +1,8 @@
-project: rnshah9/libesedb
+project: libesedb
 target: esedbinfo
-tests: 
+testsuite: 
   - file://tests/data/
 
 cmds:
-  - cmd: /usr/local/bin/esedbinfo @@
+  - cmd: /usr/local/bin/esedbinfo /test.edb
     filepath: /test.edb
