@@ -4,5 +4,4 @@ testsuite:
   - file://tests/data/
 
 cmds:
-  - cmd: /usr/local/bin/esedbinfo /test.edb
-    filepath: /test.edb
+  - cmd: /install/bin/esedbinfo @@
